@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(167, 249, 245);
+    font-family: Arial, sans-serif;
+    cursor: url(./images/cursor.png),auto ;
+}
+h1{
+    color: #107bee;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+h1, h2{
+    text-decoration: underline;
+   
+}
+ /* with the class we have to use . */
+.btn{
+
+
+
+    color: hsl(216, 14%, 93%);
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 6px black;
+   
+
+
+}
+
+.btn:hover{
+background-color: white;
+color: black;
+}
+/* id selector */
+#introPara{
+    font-style: italic;
+}
+
+article h2{
+    color: red;
+}
+
+.hobbylist{
+    color: red;
+}
+/* adding child number,adding odd and even , or equation like (2n+1) */
+ul li:nth-child(odd){
+    color: #107bee;
+}
+
+.secondClass{
+    border: 4px solid #8ec417;
+}
+/* form styles */
+
+form{ background-color: red;
+    max-width: 500px;
+    /* margin: 100px; */
+    /* padding: 10px; */
+    /* padding-top: 100px; */
+   padding: 20px;
+   margin: 20px auto; 
+}
+
+input, textarea{
+    display: block;
+    margin: 5px 0px;
+    padding: 5px;
+    font-size: 16px;
+    
+   
+}
