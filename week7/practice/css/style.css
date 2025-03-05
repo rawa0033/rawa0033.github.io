@@ -1,0 +1,21 @@
+body{
+    background-color: :white;
+    color: black;
+    line-height: 1.5;
+
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    background-image: url("../images/bread.jpg");
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: centerx    ;
+
+}

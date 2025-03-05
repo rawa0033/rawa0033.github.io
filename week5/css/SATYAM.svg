@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 595.3 841.9">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill:rgb(232, 6, 6);
+      }
+      .st0:hover {
+       transition: transform 4s, fill 7s; fill: black; transform: scaleY(1.5);
+         }
+         .st1 {     
+        width: 200px;
+         stroke: #000;
+        stroke-miterlimit: 20;
+        stroke-width: 13px;
+        fill: black;}
+        
+         .st1:hover { transition: transform 3s, fill 5s; fill: blue; transform: scaleY(1.5);   
+        width: 100px;
+        stroke-miterlimit: 10;
+        stroke-width: 13px;
+        fill: green;
+        stroke: #000;
+      
+      }
+
+      .st0, .st1 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .st1 {
+        fill: #ed1964;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1">
+    <rect class="st0" x="59" y="119" width="198" height="165"/>
+  </g>
+  <g id="Layer_2">
+    <circle class="st1" cx="282" cy="503" r="114"/>
+  </g>
+</svg>

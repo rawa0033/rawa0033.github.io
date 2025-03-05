@@ -96,7 +96,7 @@ dl dd {
 
 /* hobbies css */
 ul.hobbies {
-    list-style-type: se;
+    list-style-type: square;
 }
 
 ul.hobbies li:nth-child(odd) {

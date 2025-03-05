@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    border: 5px solid red;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+p{
+    /* width: 100px; */
+      /*width dosnt work coz of display inline error  */
+      padding: 1rem;
+      margin: 1rem;
+    
+}
+
+img{
+    float: right;
+}
+
+.floatprac{
+    
+}
