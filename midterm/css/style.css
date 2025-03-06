@@ -41,8 +41,6 @@ header {
 nav {
     margin-top: 0;
     background-color: #def9f6;
-    display: flex;
-    justify-content: center;
     font-size: 1.5rem;
     width: 100%;
     top: 80%;
@@ -52,12 +50,11 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
     width: 100%;
 }
 
 nav ul li {
-    flex: 1;
+    flex: 29;
     text-align: center;
 }
 
@@ -148,8 +145,8 @@ button {
 }
 
 button:hover {
-    background-color: #515355;
-    color: #ffffff;
+    background-color: #a7a7a7;
+    color: #96ebee;
 }
 
 /* Footer */
