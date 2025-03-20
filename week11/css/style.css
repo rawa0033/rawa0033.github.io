@@ -1,3 +1,23 @@
 body{
     background-color: aquamarine;
 }
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 4fr 2fr;
+    /* contolling the thickness of row and column */
+    /* row-gap: 1rem;
+    column-gap: 2rem; */
+    /* controlling both column and row  */
+    /* gap: 1rem; */
+    /* controlling first row the column */
+    gap: 2rem 1rem;
+  
+}
+
+.box{
+    background-color: aliceblue;
+    padding: 2rem;
+}
