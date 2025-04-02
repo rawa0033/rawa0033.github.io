@@ -1,0 +1,47 @@
+header,nav,main,footer{
+    padding: 1rem;
+}
+
+header{
+    background-color: antiquewhite;
+    grid-area: header;
+}
+
+nav{
+    background-color: aqua;
+    grid-area: nav;
+}
+
+main{
+    background-color: lavenderblush;
+    grid-area: main;
+}
+
+footer{
+    background-color: antiquewhite;
+    grid-area: footer;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "nav" 
+    "main"
+    "footer"
+    ;
+
+}
+
+@media screen and (min-width:700px){
+    .container{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas:
+        "header header header"
+        "nav main main"
+        "nav main main"
+        "footer footer footer";
+    }
+    
+}
