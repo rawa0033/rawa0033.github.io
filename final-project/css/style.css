@@ -407,7 +407,7 @@ footer p {
 footer a {
   color: #c6983c;
 }
- 
+
 /* destop css (760px + display) */
 @media screen and (min-width: 760px) {
   header {
@@ -581,19 +581,19 @@ footer a {
     grid-area: form;
     width: 100%;
   }
-
+  /* map */
   .location-map {
     grid-area: map;
     width: 100%;
   }
-
+  /* hours */
   .operation-hours {
     grid-area: hours;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
   }
-
+  /* footer */
   footer {
     margin: 1rem 3rem 0 3rem;
   }
